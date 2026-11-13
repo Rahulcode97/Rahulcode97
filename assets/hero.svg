@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="284" viewBox="0 0 840 284" role="img" aria-label="Rahul Srivastava, engineering lead · data, ML &amp; infra">
+<style>
+  text{font-family:ui-monospace, SFMono-Regular, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, 'Liberation Mono', monospace}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+  .live{animation:pulse 2.4s ease-in-out infinite}
+  @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+  .cursor{animation:blink 1.1s step-end infinite}
+  @keyframes rise{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+  .in{animation:rise .5s ease-out backwards}
+</style>
+<rect x="0.5" y="0.5" width="839" height="283" rx="12" fill="#0A0F0D" stroke="#1E2A24"/>
+<path d="M12.5 0.5h815a12 12 0 0 1 12 12v22h-839v-22a12 12 0 0 1 12-12z" fill="#111915"/>
+<line x1="0.5" y1="34.5" x2="839.5" y2="34.5" stroke="#1E2A24"/>
+<circle cx="22" cy="17.5" r="5.5" fill="#FF5F57"/><circle cx="40" cy="17.5" r="5.5" fill="#FEBC2E"/><circle cx="58" cy="17.5" r="5.5" fill="#28C840"/>
+<text x="420" y="22" font-size="12" fill="#5E6B65" text-anchor="middle">rahul@prod: ~</text><g class="in" style="animation-delay:0.15s"><text x="28" y="74" font-size="13"><tspan fill="#3FB950">$</tspan><tspan fill="#E6EDF3" dx="8">whoami</tspan></text></g><g class="in" style="animation-delay:0.50s"><text x="46" y="96" font-size="15"><tspan fill="#E6EDF3" font-weight="700">Rahul Srivastava</tspan><tspan fill="#5E6B65">  ·  </tspan><tspan fill="#9DAAA3">engineering lead · data, ML &amp; infra</tspan></text></g><g class="in" style="animation-delay:0.85s"><text x="28" y="118" font-size="13"><tspan fill="#3FB950">$</tspan><tspan fill="#E6EDF3" dx="8">cat focus.txt</tspan></text></g><g class="in" style="animation-delay:1.20s"><text x="46" y="140" font-size="15"><tspan fill="#F2CC60">applied AI · data platforms · self-hosted infra</tspan></text></g><g class="in" style="animation-delay:1.55s"><text x="28" y="162" font-size="13"><tspan fill="#3FB950">$</tspan><tspan fill="#E6EDF3" dx="8">uptime</tspan></text></g><g class="in" style="animation-delay:1.90s"><text x="46" y="184" font-size="15"><tspan fill="#7EE787">6 production systems</tspan><tspan fill="#5E6B65">  ·  </tspan><tspan fill="#9DAAA3">owned from requirements to on-call</tspan></text></g><g class="in" style="animation-delay:2.25s"><text x="28" y="206" font-size="13"><tspan fill="#3FB950">$</tspan><tspan fill="#E6EDF3" dx="8">open portfolio</tspan></text></g><g class="in" style="animation-delay:2.60s"><text x="46" y="228" font-size="15"><tspan fill="#56D4DD">→ case studies, numbers &amp; live demos</tspan></text></g><g class="in" style="animation-delay:2.95s"><text x="28" y="250" font-size="13"><tspan fill="#3FB950">$</tspan><tspan fill="#E6EDF3" dx="8"></tspan></text><rect x="50" y="238" width="9" height="16" fill="#3FB950" class="cursor"/></g>
+</svg>

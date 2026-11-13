@@ -1,7 +1,9 @@
 {
   "name": "Rahul Srivastava",
-  "role": "Engineering lead · Data & ML platforms · Infrastructure",
-  "tagline": "I turn operational bottlenecks into production systems, then run them.",
+  "handle": "rahul",
+  "role": "engineering lead · data, ML & infra",
+  "focus": "applied AI · data platforms · self-hosted infra",
+  "uptime": "6 production systems",
   "portfolio": "https://rahulcode97.github.io/Unified-Financial-Intelligence/",
 
   "accounts": {
@@ -9,25 +11,26 @@
     "work_env": "WORK_GH_USER"
   },
 
-  "impact": [
-    { "value": "10M+",      "label": "records classified and deduplicated" },
-    { "value": "8% → 36%",  "label": "outreach open rate in two months" },
-    { "value": "~30 h",     "label": "manual work removed every week" },
-    { "value": "₹63 Cr",    "label": "transactions reconciled over five years" },
-    { "value": "6",         "label": "production systems owned end to end" },
-    { "value": "4",         "label": "hires, from 20+ candidates screened" }
+  "services": [
+    { "name": "research-intel",  "does": "collects & ranks 10M+ researcher profiles", "signal": "open rate 8% → 36%" },
+    { "name": "collector-fleet", "does": "Rust agents on 10 repurposed office PCs",   "signal": "self-healing, self-updating" },
+    { "name": "ops-copilot",     "does": "plain-English fleet control over MCP",      "signal": "dry-run · audit log · undo" },
+    { "name": "finance-recon",   "does": "3 payment gateways in one console",         "signal": "₹63 Cr · week → under 1 h" },
+    { "name": "conference-ops",  "does": "the platform the org runs events on",       "signal": "replaced 5+ tools" },
+    { "name": "staff-console",   "does": "Workspace admin, RBAC, credential vault",   "signal": "AES-256-GCM · SSO" },
+    { "name": "infra",           "does": "VPS + Coolify, Cloud Run, Zoho Catalyst",   "signal": "hosts the team's deploys" }
   ],
 
-  "stack": [
-    { "group": "Backend",  "items": ["Python", "FastAPI", "Rust · Tokio", "Node.js", "PHP", "MCP"] },
-    { "group": "Data & ML", "items": ["PostgreSQL", "MySQL", "Pandas", "scikit-learn", "Neural nets", "Chart.js"] },
-    { "group": "AI",       "items": ["Claude", "OpenAI", "Gemini", "Vertex AI", "Grok", "Cursor"] },
-    { "group": "Frontend", "items": ["React", "TypeScript", "Vite", "Tauri", "VS Code ext."] },
-    { "group": "Infra",    "items": ["Docker", "Coolify", "Cloud Run", "Oracle Cloud", "GitHub Actions", "RBAC · SSO"] }
+  "toolbox": [
+    ["backend",  "python  fastapi  rust/tokio  node  php"],
+    ["data/ml",  "postgres  mysql  pandas  scikit-learn"],
+    ["ai",       "claude  openai  gemini  vertex-ai  mcp"],
+    ["frontend", "react  typescript  vite  tauri"],
+    ["infra",    "docker  coolify  cloud-run  gh-actions"]
   ],
 
   "languages": {
-    "exclude": ["HTML", "CSS", "Jupyter Notebook", "SCSS", "Dockerfile", "Makefile", "Batchfile", "PowerShell", "Procfile"],
+    "exclude": ["HTML", "CSS", "SCSS", "Jupyter Notebook", "Dockerfile", "Makefile", "Batchfile", "PowerShell", "Procfile"],
     "top": 6
   }
 }

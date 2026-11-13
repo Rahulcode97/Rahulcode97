@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="323" viewBox="0 0 840 323" role="img" aria-label="Services I built and run in production">
+<style>
+  text{font-family:ui-monospace, SFMono-Regular, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, 'Liberation Mono', monospace}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+  .live{animation:pulse 2.4s ease-in-out infinite}
+  @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+  .cursor{animation:blink 1.1s step-end infinite}
+  @keyframes rise{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+  .in{animation:rise .5s ease-out backwards}
+</style>
+<rect x="0.5" y="0.5" width="839" height="322" rx="12" fill="#0A0F0D" stroke="#1E2A24"/>
+<text x="28" y="40" font-size="13"><tspan fill="#3FB950">$</tspan><tspan fill="#E6EDF3" dx="8">systemctl list-units --state=running</tspan><tspan fill="#5E6B65" dx="12"># systems I built and run</tspan></text><text y="70" font-size="11" fill="#5E6B65" letter-spacing=".08em">
+<tspan x="46">SERVICE</tspan><tspan x="224">WHAT IT DOES</tspan><tspan x="560">SIGNAL</tspan></text>
+<line x1="28" y1="78" x2="812" y2="78" stroke="#1E2A24"/><g class="in" style="animation-delay:0.10s">
+<circle cx="33" cy="93.5" r="4.5" fill="#3FB950" class="live" style="animation-delay:0.0s"/>
+<text x="46" y="98" font-size="13" font-weight="600" fill="#E6EDF3">research-intel</text>
+<text x="224" y="98" font-size="12.5" fill="#9DAAA3">collects &amp; ranks 10M+ researcher profiles</text>
+<text x="560" y="98" font-size="12.5" fill="#F2CC60">open rate 8% → 36%</text></g><g class="in" style="animation-delay:0.18s">
+<circle cx="33" cy="124.5" r="4.5" fill="#3FB950" class="live" style="animation-delay:0.3s"/>
+<text x="46" y="129" font-size="13" font-weight="600" fill="#E6EDF3">collector-fleet</text>
+<text x="224" y="129" font-size="12.5" fill="#9DAAA3">Rust agents on 10 repurposed office PCs</text>
+<text x="560" y="129" font-size="12.5" fill="#F2CC60">self-healing, self-updating</text></g><g class="in" style="animation-delay:0.26s">
+<circle cx="33" cy="155.5" r="4.5" fill="#3FB950" class="live" style="animation-delay:0.6s"/>
+<text x="46" y="160" font-size="13" font-weight="600" fill="#E6EDF3">ops-copilot</text>
+<text x="224" y="160" font-size="12.5" fill="#9DAAA3">plain-English fleet control over MCP</text>
+<text x="560" y="160" font-size="12.5" fill="#F2CC60">dry-run · audit log · undo</text></g><g class="in" style="animation-delay:0.34s">
+<circle cx="33" cy="186.5" r="4.5" fill="#3FB950" class="live" style="animation-delay:0.9s"/>
+<text x="46" y="191" font-size="13" font-weight="600" fill="#E6EDF3">finance-recon</text>
+<text x="224" y="191" font-size="12.5" fill="#9DAAA3">3 payment gateways in one console</text>
+<text x="560" y="191" font-size="12.5" fill="#F2CC60">₹63 Cr · week → under 1 h</text></g><g class="in" style="animation-delay:0.42s">
+<circle cx="33" cy="217.5" r="4.5" fill="#3FB950" class="live" style="animation-delay:1.2s"/>
+<text x="46" y="222" font-size="13" font-weight="600" fill="#E6EDF3">conference-ops</text>
+<text x="224" y="222" font-size="12.5" fill="#9DAAA3">the platform the org runs events on</text>
+<text x="560" y="222" font-size="12.5" fill="#F2CC60">replaced 5+ tools</text></g><g class="in" style="animation-delay:0.50s">
+<circle cx="33" cy="248.5" r="4.5" fill="#3FB950" class="live" style="animation-delay:1.5s"/>
+<text x="46" y="253" font-size="13" font-weight="600" fill="#E6EDF3">staff-console</text>
+<text x="224" y="253" font-size="12.5" fill="#9DAAA3">Workspace admin, RBAC, credential vault</text>
+<text x="560" y="253" font-size="12.5" fill="#F2CC60">AES-256-GCM · SSO</text></g><g class="in" style="animation-delay:0.58s">
+<circle cx="33" cy="279.5" r="4.5" fill="#3FB950" class="live" style="animation-delay:1.8s"/>
+<text x="46" y="284" font-size="13" font-weight="600" fill="#E6EDF3">infra</text>
+<text x="224" y="284" font-size="12.5" fill="#9DAAA3">VPS + Coolify, Cloud Run, Zoho Catalyst</text>
+<text x="560" y="284" font-size="12.5" fill="#F2CC60">hosts the team's deploys</text></g>
+</svg>
