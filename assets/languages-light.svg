@@ -7,18 +7,18 @@
 <circle cx="32" cy="36" r="4" fill="#65A30D"/>
 <text x="44" y="40" class="kicker">Languages · by code written, personal + work</text>
 <clipPath id="bar"><rect x="28" y="62" width="784" height="12" rx="6"/></clipPath>
-<g clip-path="url(#bar)"><rect x="28" y="62" width="249.41988142620988" height="12" fill="#4F46E5"/><rect x="279.4198814262099" y="62" width="236.3100218021534" height="12" fill="#65A30D"/><rect x="517.7299032283632" y="62" width="105.50996411851703" height="12" fill="#38BDF8"/><rect x="625.2398673468803" y="62" width="100.11524226746403" height="12" fill="#FBBF24"/><rect x="727.3551096143443" y="62" width="72.62829002296401" height="12" fill="#F472B6"/><rect x="801.9833996373084" y="62" width="8.016600362691676" height="12" fill="#94A3B8"/></g>
+<g clip-path="url(#bar)"><rect x="28" y="62" width="357.0137399117515" height="12" fill="#4F46E5"/><rect x="387.0137399117515" y="62" width="151.51830601867158" height="12" fill="#65A30D"/><rect x="540.532045930423" y="62" width="143.81494041153042" height="12" fill="#38BDF8"/><rect x="686.3469863419534" y="62" width="104.56508686735107" height="12" fill="#FBBF24"/><rect x="792.9120732093045" y="62" width="12.303153501672371" height="12" fill="#F472B6"/><rect x="807.2152267109768" y="62" width="2.7847732890230406" height="12" fill="#94A3B8"/></g>
 <circle cx="33" cy="102" r="5" fill="#4F46E5"/>
 <text x="46" y="106" class="sans" font-size="13.5" font-weight="600" fill="#0E0F14">PHP</text>
-<text x="78.3" y="106" class="mono" font-size="12" fill="#8A8C96">32.1%</text><circle cx="294.3333333333333" cy="102" r="5" fill="#65A30D"/>
-<text x="307.3333333333333" y="106" class="sans" font-size="13.5" font-weight="600" fill="#0E0F14">Jupyter Notebook</text>
-<text x="444.9333333333333" y="106" class="mono" font-size="12" fill="#8A8C96">30.4%</text><circle cx="555.6666666666666" cy="102" r="5" fill="#38BDF8"/>
-<text x="568.6666666666666" y="106" class="sans" font-size="13.5" font-weight="600" fill="#0E0F14">JavaScript</text>
-<text x="657.6666666666666" y="106" class="mono" font-size="12" fill="#8A8C96">13.7%</text><circle cx="33" cy="130" r="5" fill="#FBBF24"/>
-<text x="46" y="134" class="sans" font-size="13.5" font-weight="600" fill="#0E0F14">Python</text>
-<text x="102.6" y="134" class="mono" font-size="12" fill="#8A8C96">13.0%</text><circle cx="294.3333333333333" cy="130" r="5" fill="#F472B6"/>
-<text x="307.3333333333333" y="134" class="sans" font-size="13.5" font-weight="600" fill="#0E0F14">TypeScript</text>
-<text x="396.3333333333333" y="134" class="mono" font-size="12" fill="#8A8C96">9.5%</text><circle cx="555.6666666666666" cy="130" r="5" fill="#94A3B8"/>
-<text x="568.6666666666666" y="134" class="sans" font-size="13.5" font-weight="600" fill="#0E0F14">Rust</text>
-<text x="609.0666666666666" y="134" class="mono" font-size="12" fill="#8A8C96">1.3%</text>
+<text x="78.3" y="106" class="mono" font-size="12" fill="#8A8C96">45.8%</text><circle cx="294.3333333333333" cy="102" r="5" fill="#65A30D"/>
+<text x="307.3333333333333" y="106" class="sans" font-size="13.5" font-weight="600" fill="#0E0F14">JavaScript</text>
+<text x="396.3333333333333" y="106" class="mono" font-size="12" fill="#8A8C96">19.6%</text><circle cx="555.6666666666666" cy="102" r="5" fill="#38BDF8"/>
+<text x="568.6666666666666" y="106" class="sans" font-size="13.5" font-weight="600" fill="#0E0F14">Python</text>
+<text x="625.2666666666667" y="106" class="mono" font-size="12" fill="#8A8C96">18.6%</text><circle cx="33" cy="130" r="5" fill="#FBBF24"/>
+<text x="46" y="134" class="sans" font-size="13.5" font-weight="600" fill="#0E0F14">TypeScript</text>
+<text x="135" y="134" class="mono" font-size="12" fill="#8A8C96">13.6%</text><circle cx="294.3333333333333" cy="130" r="5" fill="#F472B6"/>
+<text x="307.3333333333333" y="134" class="sans" font-size="13.5" font-weight="600" fill="#0E0F14">Rust</text>
+<text x="347.7333333333333" y="134" class="mono" font-size="12" fill="#8A8C96">1.8%</text><circle cx="555.6666666666666" cy="130" r="5" fill="#94A3B8"/>
+<text x="568.6666666666666" y="134" class="sans" font-size="13.5" font-weight="600" fill="#0E0F14">PLpgSQL</text>
+<text x="633.3666666666667" y="134" class="mono" font-size="12" fill="#8A8C96">0.6%</text>
 </svg>
