@@ -1,0 +1,33 @@
+{
+  "name": "Rahul Srivastava",
+  "role": "Engineering lead · Data & ML platforms · Infrastructure",
+  "tagline": "I turn operational bottlenecks into production systems, then run them.",
+  "portfolio": "https://rahulcode97.github.io/Unified-Financial-Intelligence/",
+
+  "accounts": {
+    "personal": "Rahulcode97",
+    "work_env": "WORK_GH_USER"
+  },
+
+  "impact": [
+    { "value": "10M+",      "label": "records classified and deduplicated" },
+    { "value": "8% → 36%",  "label": "outreach open rate in two months" },
+    { "value": "~30 h",     "label": "manual work removed every week" },
+    { "value": "₹63 Cr",    "label": "transactions reconciled over five years" },
+    { "value": "6",         "label": "production systems owned end to end" },
+    { "value": "4",         "label": "hires, from 20+ candidates screened" }
+  ],
+
+  "stack": [
+    { "group": "Backend",  "items": ["Python", "FastAPI", "Rust · Tokio", "Node.js", "PHP", "MCP"] },
+    { "group": "Data & ML", "items": ["PostgreSQL", "MySQL", "Pandas", "scikit-learn", "Neural nets", "Chart.js"] },
+    { "group": "AI",       "items": ["Claude", "OpenAI", "Gemini", "Vertex AI", "Grok", "Cursor"] },
+    { "group": "Frontend", "items": ["React", "TypeScript", "Vite", "Tauri", "VS Code ext."] },
+    { "group": "Infra",    "items": ["Docker", "Coolify", "Cloud Run", "Oracle Cloud", "GitHub Actions", "RBAC · SSO"] }
+  ],
+
+  "languages": {
+    "exclude": ["HTML", "CSS", "SCSS", "Dockerfile", "Makefile", "Batchfile", "PowerShell", "Procfile"],
+    "top": 6
+  }
+}
