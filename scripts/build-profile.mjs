@@ -138,11 +138,11 @@ function activity(t, d) {
   const pad = 28;
   const stats = [
     ["Commits", fmt(d.commits)],
-    ["Pull requests", fmt(d.prs)],
-    ["Code reviews", fmt(d.reviews)],
     ["Repos contributed to", fmt(d.repos)],
-    ["Current streak", `${d.currentStreak}d`],
-    ["Longest streak", `${d.longestStreak}d`],
+    ["Last 30 days", fmt(d.last30)],
+    ["Longest streak", `${d.longestStreak} days`],
+    ["Peak day", fmt(d.peak)],
+    ["Busiest weekday", d.busiestDay],
   ];
   // Left: headline number. Right: 3x2 stat grid.
   const gx = 300, gw = (W - gx - pad) / 3;
@@ -180,11 +180,11 @@ function activity(t, d) {
     `<text x="${legendX + 32 + 5 * step}" y="${legendY + 9}" class="sans" font-size="10.5" fill="${t.muted}">More</text>`;
 
   const h = legendY + cell + pad;
-  const note = `${d.sources} · busiest day ${d.busiestDay} · updated ${d.updated}`;
+  const note = `${d.sources} · updated ${d.updated}`;
   const body = `${kicker(t, pad, 40, "GitHub activity · last 12 months")}
 <text x="${pad}" y="112" class="sans" font-size="54" font-weight="700" fill="${t.ink}" letter-spacing="-0.03em">${fmt(d.total)}</text>
 <text x="${pad}" y="136" class="sans" font-size="13" fill="${t.soft}">contributions this year</text>
-<text x="${pad}" y="158" class="sans" font-size="12" fill="${t.muted}">${fmt(d.allTime)} all-time since ${d.since}</text>
+<text x="${pad}" y="158" class="sans" font-size="12" fill="${t.muted}">across ${fmt(d.activeDays)} active days</text>
 <line x1="${gx - 28}" y1="58" x2="${gx - 28}" y2="162" stroke="${t.line}"/>
 ${grid}
 ${months}${dayLabels}${heat}
@@ -253,16 +253,9 @@ async function fetchAccount(token, login) {
   }`, { login, from: from.toISOString(), to: to.toISOString() });
 
   const u = main.user, c = u.contributionsCollection;
-  // All-time total: one contributionsCollection per calendar year.
-  const startYear = new Date(u.createdAt).getUTCFullYear(), nowYear = to.getUTCFullYear();
-  const aliases = [];
-  for (let y = startYear; y <= nowYear; y++)
-    aliases.push(`y${y}: contributionsCollection(from: "${y}-01-01T00:00:00Z", to: "${y === nowYear ? to.toISOString() : `${y}-12-31T23:59:59Z`}") { contributionCalendar { totalContributions } }`);
-  const years = await gql(token, `query($login: String!) { user(login: $login) { ${aliases.join("\n")} } }`, { login });
-  const allTime = Object.values(years.user).reduce((a, y) => a + y.contributionCalendar.totalContributions, 0);
 
   return {
-    login, since: startYear, allTime,
+    login,
     total: c.contributionCalendar.totalContributions,
     // Private contributions the token cannot see in detail are still in `total`
     // (restrictedContributionsCount), but not in the per-type counts below.
@@ -287,7 +280,7 @@ function mockAccount(seed, scale) {
   }
   const langs = [["Python", 520], ["TypeScript", 380], ["Rust", 240], ["PHP", 160], ["JavaScript", 120], ["SQL", 60], ["HTML", 400]];
   return {
-    login: "mock", since: 2019, allTime: Math.round(4200 * scale), total: days.reduce((a, d) => a + d.count, 0),
+    login: "mock", total: days.reduce((a, d) => a + d.count, 0),
     commits: Math.round(1100 * scale), prs: Math.round(140 * scale), reviews: Math.round(90 * scale), repos: Math.round(14 * scale), days,
     repoLangs: [{ nameWithOwner: `mock/${seed}`, languages: { edges: langs.map(([name, size]) => ({ size: size * 1000 * scale, node: { name } })) } }],
   };
@@ -300,14 +293,13 @@ function combine(accounts) {
 
   let longest = 0, run = 0;
   for (const d of days) { run = d.count > 0 ? run + 1 : 0; longest = Math.max(longest, run); }
-  // Today still counts as "in progress", so a zero today does not break the streak.
-  let current = 0, i = days.length - 1;
-  if (i >= 0 && days[i].count === 0) i--;
-  for (; i >= 0 && days[i].count > 0; i--) current++;
 
   const dow = Array(7).fill(0);
   for (const d of days) dow[new Date(d.date + "T00:00:00Z").getUTCDay()] += d.count;
   const busiestDay = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"][dow.indexOf(Math.max(...dow))];
+  const activeDays = days.filter((d) => d.count > 0).length;
+  const peak = Math.max(0, ...days.map((d) => d.count));
+  const last30 = days.slice(-30).reduce((a, d) => a + d.count, 0);
 
   const sum = (k) => accounts.reduce((a, x) => a + x[k], 0);
   const seen = new Set(), langMap = new Map();
@@ -321,9 +313,8 @@ function combine(accounts) {
 
   return {
     activity: {
-      total: sum("total"), allTime: sum("allTime"), since: Math.min(...accounts.map((a) => a.since)),
-      commits: sum("commits"), prs: sum("prs"), reviews: sum("reviews"), repos: sum("repos"),
-      currentStreak: current, longestStreak: longest, busiestDay, days,
+      total: sum("total"), commits: sum("commits"), repos: sum("repos"),
+      longestStreak: longest, busiestDay, activeDays, peak, last30, days,
       sources: accounts.length > 1 ? "Personal + work accounts, private work counted" : "Public activity",
       updated: new Date().toISOString().slice(0, 10),
     },

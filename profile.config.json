@@ -27,7 +27,7 @@
   ],
 
   "languages": {
-    "exclude": ["HTML", "CSS", "SCSS", "Dockerfile", "Makefile", "Batchfile", "PowerShell", "Procfile"],
+    "exclude": ["HTML", "CSS", "Jupyter Notebook", "SCSS", "Dockerfile", "Makefile", "Batchfile", "PowerShell", "Procfile"],
     "top": 6
   }
 }
