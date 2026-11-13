@@ -1,39 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="840" height="284" viewBox="0 0 840 284" role="img" aria-label="Tech stack">
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="256" viewBox="0 0 840 256" role="img" aria-label="Languages and toolbox">
 <style>
-  .sans{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif} .mono{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace}
-  .kicker{font:600 11px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace;letter-spacing:.12em;fill:#7D7F8A;text-transform:uppercase}
+  text{font-family:ui-monospace, SFMono-Regular, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, 'Liberation Mono', monospace}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+  .live{animation:pulse 2.4s ease-in-out infinite}
+  @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+  .cursor{animation:blink 1.1s step-end infinite}
+  @keyframes rise{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+  .in{animation:rise .5s ease-out backwards}
 </style>
-<rect x="0.5" y="0.5" width="839" height="283" rx="14" fill="#141418" stroke="#26262C"/>
-<circle cx="32" cy="36" r="4" fill="#A3E635"/>
-<text x="44" y="40" class="kicker">Stack · what I ship with today</text>
-<text x="28" y="83" class="mono" font-size="11.5" font-weight="600" fill="#7D7F8A" letter-spacing=".06em">BACKEND</text><rect x="138" y="64" width="69.68" height="28" rx="14" fill="#8B85FF" />
-<text x="172.84" y="82.5" text-anchor="middle" class="sans" font-size="13" font-weight="600" fill="#0D1117">Python</text><rect x="215.68" y="64" width="76.96000000000001" height="28" rx="14" fill="#1A1A1F" stroke="#26262C"/>
-<text x="254.16000000000003" y="82.5" text-anchor="middle" class="sans" font-size="13" font-weight="500" fill="#EDEDF0">FastAPI</text><rect x="300.64" y="64" width="113.36000000000001" height="28" rx="14" fill="#1A1A1F" stroke="#26262C"/>
-<text x="357.32" y="82.5" text-anchor="middle" class="sans" font-size="13" font-weight="500" fill="#EDEDF0">Rust · Tokio</text><rect x="422" y="64" width="76.96000000000001" height="28" rx="14" fill="#1A1A1F" stroke="#26262C"/>
-<text x="460.48" y="82.5" text-anchor="middle" class="sans" font-size="13" font-weight="500" fill="#EDEDF0">Node.js</text><rect x="506.96000000000004" y="64" width="47.84" height="28" rx="14" fill="#1A1A1F" stroke="#26262C"/>
-<text x="530.88" y="82.5" text-anchor="middle" class="sans" font-size="13" font-weight="500" fill="#EDEDF0">PHP</text><rect x="562.8000000000001" y="64" width="47.84" height="28" rx="14" fill="#1A1A1F" stroke="#26262C"/>
-<text x="586.72" y="82.5" text-anchor="middle" class="sans" font-size="13" font-weight="500" fill="#EDEDF0">MCP</text><text x="28" y="123" class="mono" font-size="11.5" font-weight="600" fill="#7D7F8A" letter-spacing=".06em">DATA &amp; ML</text><rect x="138" y="104" width="98.80000000000001" height="28" rx="14" fill="#8B85FF" />
-<text x="187.4" y="122.5" text-anchor="middle" class="sans" font-size="13" font-weight="600" fill="#0D1117">PostgreSQL</text><rect x="244.8" y="104" width="62.400000000000006" height="28" rx="14" fill="#1A1A1F" stroke="#26262C"/>
-<text x="276" y="122.5" text-anchor="middle" class="sans" font-size="13" font-weight="500" fill="#EDEDF0">MySQL</text><rect x="315.20000000000005" y="104" width="69.68" height="28" rx="14" fill="#1A1A1F" stroke="#26262C"/>
-<text x="350.0400000000001" y="122.5" text-anchor="middle" class="sans" font-size="13" font-weight="500" fill="#EDEDF0">Pandas</text><rect x="392.88000000000005" y="104" width="113.36000000000001" height="28" rx="14" fill="#1A1A1F" stroke="#26262C"/>
-<text x="449.56000000000006" y="122.5" text-anchor="middle" class="sans" font-size="13" font-weight="500" fill="#EDEDF0">scikit-learn</text><rect x="514.24" y="104" width="106.08000000000001" height="28" rx="14" fill="#1A1A1F" stroke="#26262C"/>
-<text x="567.28" y="122.5" text-anchor="middle" class="sans" font-size="13" font-weight="500" fill="#EDEDF0">Neural nets</text><rect x="628.32" y="104" width="84.24000000000001" height="28" rx="14" fill="#1A1A1F" stroke="#26262C"/>
-<text x="670.44" y="122.5" text-anchor="middle" class="sans" font-size="13" font-weight="500" fill="#EDEDF0">Chart.js</text><text x="28" y="163" class="mono" font-size="11.5" font-weight="600" fill="#7D7F8A" letter-spacing=".06em">AI</text><rect x="138" y="144" width="69.68" height="28" rx="14" fill="#8B85FF" />
-<text x="172.84" y="162.5" text-anchor="middle" class="sans" font-size="13" font-weight="600" fill="#0D1117">Claude</text><rect x="215.68" y="144" width="69.68" height="28" rx="14" fill="#1A1A1F" stroke="#26262C"/>
-<text x="250.52" y="162.5" text-anchor="middle" class="sans" font-size="13" font-weight="500" fill="#EDEDF0">OpenAI</text><rect x="293.36" y="144" width="69.68" height="28" rx="14" fill="#1A1A1F" stroke="#26262C"/>
-<text x="328.20000000000005" y="162.5" text-anchor="middle" class="sans" font-size="13" font-weight="500" fill="#EDEDF0">Gemini</text><rect x="371.04" y="144" width="91.52000000000001" height="28" rx="14" fill="#1A1A1F" stroke="#26262C"/>
-<text x="416.8" y="162.5" text-anchor="middle" class="sans" font-size="13" font-weight="500" fill="#EDEDF0">Vertex AI</text><rect x="470.56000000000006" y="144" width="55.120000000000005" height="28" rx="14" fill="#1A1A1F" stroke="#26262C"/>
-<text x="498.12000000000006" y="162.5" text-anchor="middle" class="sans" font-size="13" font-weight="500" fill="#EDEDF0">Grok</text><rect x="533.6800000000001" y="144" width="69.68" height="28" rx="14" fill="#1A1A1F" stroke="#26262C"/>
-<text x="568.5200000000001" y="162.5" text-anchor="middle" class="sans" font-size="13" font-weight="500" fill="#EDEDF0">Cursor</text><text x="28" y="203" class="mono" font-size="11.5" font-weight="600" fill="#7D7F8A" letter-spacing=".06em">FRONTEND</text><rect x="138" y="184" width="62.400000000000006" height="28" rx="14" fill="#8B85FF" />
-<text x="169.2" y="202.5" text-anchor="middle" class="sans" font-size="13" font-weight="600" fill="#0D1117">React</text><rect x="208.4" y="184" width="98.80000000000001" height="28" rx="14" fill="#1A1A1F" stroke="#26262C"/>
-<text x="257.8" y="202.5" text-anchor="middle" class="sans" font-size="13" font-weight="500" fill="#EDEDF0">TypeScript</text><rect x="315.20000000000005" y="184" width="55.120000000000005" height="28" rx="14" fill="#1A1A1F" stroke="#26262C"/>
-<text x="342.76000000000005" y="202.5" text-anchor="middle" class="sans" font-size="13" font-weight="500" fill="#EDEDF0">Vite</text><rect x="378.32000000000005" y="184" width="62.400000000000006" height="28" rx="14" fill="#1A1A1F" stroke="#26262C"/>
-<text x="409.52000000000004" y="202.5" text-anchor="middle" class="sans" font-size="13" font-weight="500" fill="#EDEDF0">Tauri</text><rect x="448.72" y="184" width="113.36000000000001" height="28" rx="14" fill="#1A1A1F" stroke="#26262C"/>
-<text x="505.40000000000003" y="202.5" text-anchor="middle" class="sans" font-size="13" font-weight="500" fill="#EDEDF0">VS Code ext.</text><text x="28" y="243" class="mono" font-size="11.5" font-weight="600" fill="#7D7F8A" letter-spacing=".06em">INFRA</text><rect x="138" y="224" width="69.68" height="28" rx="14" fill="#8B85FF" />
-<text x="172.84" y="242.5" text-anchor="middle" class="sans" font-size="13" font-weight="600" fill="#0D1117">Docker</text><rect x="215.68" y="224" width="76.96000000000001" height="28" rx="14" fill="#1A1A1F" stroke="#26262C"/>
-<text x="254.16000000000003" y="242.5" text-anchor="middle" class="sans" font-size="13" font-weight="500" fill="#EDEDF0">Coolify</text><rect x="300.64" y="224" width="91.52000000000001" height="28" rx="14" fill="#1A1A1F" stroke="#26262C"/>
-<text x="346.4" y="242.5" text-anchor="middle" class="sans" font-size="13" font-weight="500" fill="#EDEDF0">Cloud Run</text><rect x="400.15999999999997" y="224" width="113.36000000000001" height="28" rx="14" fill="#1A1A1F" stroke="#26262C"/>
-<text x="456.84" y="242.5" text-anchor="middle" class="sans" font-size="13" font-weight="500" fill="#EDEDF0">Oracle Cloud</text><rect x="521.52" y="224" width="127.92000000000002" height="28" rx="14" fill="#1A1A1F" stroke="#26262C"/>
-<text x="585.48" y="242.5" text-anchor="middle" class="sans" font-size="13" font-weight="500" fill="#EDEDF0">GitHub Actions</text><rect x="657.44" y="224" width="98.80000000000001" height="28" rx="14" fill="#1A1A1F" stroke="#26262C"/>
-<text x="706.84" y="242.5" text-anchor="middle" class="sans" font-size="13" font-weight="500" fill="#EDEDF0">RBAC · SSO</text>
+<rect x="0.5" y="0.5" width="839" height="255" rx="12" fill="#0A0F0D" stroke="#1E2A24"/>
+<text x="28" y="40" font-size="13"><tspan fill="#3FB950">$</tspan><tspan fill="#E6EDF3" dx="8">languages --by-bytes</tspan></text>
+<text x="440" y="40" font-size="13"><tspan fill="#3FB950">$</tspan><tspan fill="#E6EDF3" dx="8">cat toolbox.yml</tspan></text>
+<line x1="418" y1="58" x2="418" y2="236" stroke="#1E2A24"/>
+<text x="28" y="76" font-size="12.5" fill="#E6EDF3">php</text>
+<rect x="148" y="67" width="212" height="8" rx="4" fill="#111915"/>
+<rect x="148" y="67" width="95.8" height="8" rx="4" fill="#3FB950"/>
+<text x="368" y="76" font-size="11.5" fill="#5E6B65">45.2%</text><text x="28" y="106" font-size="12.5" fill="#E6EDF3">javascript</text>
+<rect x="148" y="97" width="212" height="8" rx="4" fill="#111915"/>
+<rect x="148" y="97" width="42.0" height="8" rx="4" fill="#F2CC60"/>
+<text x="368" y="106" font-size="11.5" fill="#5E6B65">19.8%</text><text x="28" y="136" font-size="12.5" fill="#E6EDF3">python</text>
+<rect x="148" y="127" width="212" height="8" rx="4" fill="#111915"/>
+<rect x="148" y="127" width="38.9" height="8" rx="4" fill="#56D4DD"/>
+<text x="368" y="136" font-size="11.5" fill="#5E6B65">18.4%</text><text x="28" y="166" font-size="12.5" fill="#E6EDF3">typescript</text>
+<rect x="148" y="157" width="212" height="8" rx="4" fill="#111915"/>
+<rect x="148" y="157" width="30.2" height="8" rx="4" fill="#F778BA"/>
+<text x="368" y="166" font-size="11.5" fill="#5E6B65">14.2%</text><text x="28" y="196" font-size="12.5" fill="#E6EDF3">rust</text>
+<rect x="148" y="187" width="212" height="8" rx="4" fill="#111915"/>
+<rect x="148" y="187" width="3.8" height="8" rx="4" fill="#7EE787"/>
+<text x="368" y="196" font-size="11.5" fill="#5E6B65">1.8%</text><text x="28" y="226" font-size="12.5" fill="#E6EDF3">plpgsql</text>
+<rect x="148" y="217" width="212" height="8" rx="4" fill="#111915"/>
+<rect x="148" y="217" width="3.0" height="8" rx="4" fill="#8B949E"/>
+<text x="368" y="226" font-size="11.5" fill="#5E6B65">0.6%</text><text x="440" y="76" font-size="12.5"><tspan fill="#56D4DD">backend</tspan><tspan fill="#5E6B65">:</tspan></text>
+<text x="522" y="76" font-size="12.5" fill="#9DAAA3">python  fastapi  rust/tokio  node  php</text><text x="440" y="106" font-size="12.5"><tspan fill="#56D4DD">data/ml</tspan><tspan fill="#5E6B65">:</tspan></text>
+<text x="522" y="106" font-size="12.5" fill="#9DAAA3">postgres  mysql  pandas  scikit-learn</text><text x="440" y="136" font-size="12.5"><tspan fill="#56D4DD">ai</tspan><tspan fill="#5E6B65">:</tspan></text>
+<text x="522" y="136" font-size="12.5" fill="#9DAAA3">claude  openai  gemini  vertex-ai  mcp</text><text x="440" y="166" font-size="12.5"><tspan fill="#56D4DD">frontend</tspan><tspan fill="#5E6B65">:</tspan></text>
+<text x="522" y="166" font-size="12.5" fill="#9DAAA3">react  typescript  vite  tauri</text><text x="440" y="196" font-size="12.5"><tspan fill="#56D4DD">infra</tspan><tspan fill="#5E6B65">:</tspan></text>
+<text x="522" y="196" font-size="12.5" fill="#9DAAA3">docker  coolify  cloud-run  gh-actions</text>
 </svg>
