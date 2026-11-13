@@ -1,32 +1,63 @@
-# 💫 About Me:
-Engineer who ships production systems end to end: applied AI, full-stack and data. I lead the technical team at
-**GR Scholastic**, where I'm the sole builder of the internal platform stack.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img alt="Rahul Srivastava. Engineering lead, data and ML platforms, infrastructure." src="assets/hero-light.svg" width="100%">
+</picture>
 
-- 🤖 **Agentic AI workflows**: built and run across company operations. They have saved ~6 weeks of manual work and let
-  the company avoid ~4 additional hires, all within the existing AI budget.
-- 👥 **Team lead**: interviewed and helped hire 5 people across roles, and set the team's AI-assisted development
-  workflow (Cursor, Claude Code).
-- 🧠 **Production AI**: Vertex AI and OpenAI record classification at ~94% accuracy, a CRF extraction model for PDFs,
-  and a Telegram assistant backed by an MCP-style tool server.
-- 🏗️ **Platform**: an AI-powered conference intelligence system (React/TypeScript, Node.js, PHP, MySQL) that replaced
-  5+ tools, on infrastructure I run myself (Linux VPS + Coolify, Cloud Run, Zoho Catalyst).
+<p>
+  <a href="https://rahulcode97.github.io/Unified-Financial-Intelligence/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-4F46E5?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/rahul-srivastava97/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="https://rahulcode97.github.io/Unified-Financial-Intelligence/research-platform.html"><img alt="Research platform case study" src="https://img.shields.io/badge/Case_study-Research_platform-0E0F14?style=for-the-badge"></a>
+  <a href="https://rahulcode97.github.io/Unified-Financial-Intelligence/dashboard.html"><img alt="Finance suite live demo" src="https://img.shields.io/badge/Live_demo-Finance_suite-65A30D?style=for-the-badge"></a>
+</p>
 
-📂 **Portfolio:** [Unified Financial Intelligence](https://rahulcode97.github.io/Unified-Financial-Intelligence/)<br>
-🎯 **Open to:** forward-deployed, applied-AI, full-stack and data engineering roles.<br>
+I lead the technical team at **GR Scholastic** and own six production systems end to end: I gather the requirements,
+design and build each system, deploy it, and keep it running. My work spans applied AI, data platforms, full-stack and
+the infrastructure underneath.
+
+- **Agentic AI in operations.** The workflows I built across the company saved ~6 weeks of manual work and avoided
+  ~4 extra hires, all within the existing AI budget.
+- **Production ML.** Vertex AI and OpenAI record classification at ~94% accuracy, a CRF model for PDF extraction, and
+  a plain-English ops copilot over MCP with dry-run, audit log and undo.
+- **Team.** Screened 20+ candidates and hired 4, then set the team's AI-assisted workflow (Cursor, Claude Code).
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/impact-dark.svg">
+  <img alt="Impact: 10M+ records, 8% to 36% open rate, ~30 hours a week saved, ₹63 Cr reconciled, 6 systems, 4 hires." src="assets/impact-light.svg" width="100%">
+</picture>
+
+### Selected work
+
+**🔬 [Research Intelligence Platform](https://rahulcode97.github.io/Unified-Financial-Intelligence/research-platform.html)** · 2025–26<br>
+Collects, classifies and ranks 10M+ academic profiles across 2,000+ universities so marketing targets by work history
+instead of blind lists. It runs on a self-healing Rust fleet built from 10 retired office PCs, with a hybrid
+scikit-learn + LLM pipeline behind it.<br>
+<sub>Python · FastAPI · PostgreSQL · Rust (Tokio, Axum) · scikit-learn · MCP · React · Coolify ·
+[ML pipeline →](https://rahulcode97.github.io/Unified-Financial-Intelligence/ml-analysis.html) ·
+[The fleet →](https://rahulcode97.github.io/Unified-Financial-Intelligence/fleet.html)</sub>
+
+**₹ [Finance Reconciliation Suite](https://rahulcode97.github.io/Unified-Financial-Intelligence/finance-suite.html)**<br>
+Brings CCAvenue, PayPal and bank transfers into one console that auto-matches 98.4% of transactions, flags GST
+mismatches and builds the monthly report in one click. Month-end went from a week to under an hour.<br>
+<sub>Pandas · React · Node.js · PHP · MySQL · Google Cloud ·
+[Interactive demo →](https://rahulcode97.github.io/Unified-Financial-Intelligence/dashboard.html)</sub>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <img alt="Stack: Python, FastAPI, Rust, Node.js, PHP, PostgreSQL, MySQL, scikit-learn, Claude, OpenAI, Gemini, React, TypeScript, Docker, Coolify, Cloud Run." src="assets/stack-light.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
+  <img alt="GitHub contributions over the last 12 months, across personal and work accounts." src="assets/activity-light.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg">
+  <img alt="Top languages by code written." src="assets/languages-light.svg" width="100%">
+</picture>
+
+🎯 **Open to** forward-deployed, applied-AI, full-stack and data engineering roles.<br>
 🏎️ **Fun fact:** I can name most Formula 1 World Champions from memory.
 
-
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rahul-srivastava97/) 
-
-# 💻 Tech Stack:
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white) ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white) ![nVIDIA](https://img.shields.io/badge/cuda-000000.svg?style=for-the-badge&logo=nVIDIA&logoColor=green) ![Chart.js](https://img.shields.io/badge/chart.js-F5788D.svg?style=for-the-badge&logo=chart.js&logoColor=white) ![Electron.js](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white) ![Nuxt JS](https://img.shields.io/badge/Nuxt-002E3B?style=for-the-badge&logo=nuxt.js&logoColor=#00DC82) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Tauri](https://img.shields.io/badge/tauri-%2324C8DB.svg?style=for-the-badge&logo=tauri&logoColor=%23FFFFFF) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white) ![Web3.js](https://img.shields.io/badge/web3.js-F16822?style=for-the-badge&logo=web3.js&logoColor=white) ![Type-graphql](https://img.shields.io/badge/-TypeGraphQL-%23C04392?style=for-the-badge) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![AmazonDynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![PlanetScale](https://img.shields.io/badge/planetscale-%23000000.svg?style=for-the-badge&logo=planetscale&logoColor=white) ![Neo4J](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![Playwright](https://img.shields.io/badge/-playwright-%232EAD33?style=for-the-badge&logo=playwright&logoColor=white) ![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=Rahulcode97&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=Rahulcode97&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=Rahulcode97&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=Rahulcode97&limit=5&theme=dark&combine_all_yearly_contributions=true)
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<sub>Stat cards are drawn by [a small script](scripts/build-profile.mjs) and refreshed daily by GitHub Actions. They
+include work-account activity as totals only.</sub>
