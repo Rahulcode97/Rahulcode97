@@ -14,17 +14,17 @@
 <line x1="418" y1="58" x2="418" y2="236" stroke="#D8E0DB"/>
 <text x="28" y="76" font-size="12.5" fill="#0F1A14">php</text>
 <rect x="148" y="67" width="212" height="8" rx="4" fill="#F4F7F5"/>
-<rect x="148" y="67" width="95.8" height="8" rx="4" fill="#1A7F37"/>
-<text x="368" y="76" font-size="11.5" fill="#86928B">45.2%</text><text x="28" y="106" font-size="12.5" fill="#0F1A14">javascript</text>
+<rect x="148" y="67" width="95.5" height="8" rx="4" fill="#1A7F37"/>
+<text x="368" y="76" font-size="11.5" fill="#86928B">45.1%</text><text x="28" y="106" font-size="12.5" fill="#0F1A14">javascript</text>
 <rect x="148" y="97" width="212" height="8" rx="4" fill="#F4F7F5"/>
-<rect x="148" y="97" width="42.0" height="8" rx="4" fill="#9A6700"/>
+<rect x="148" y="97" width="41.9" height="8" rx="4" fill="#9A6700"/>
 <text x="368" y="106" font-size="11.5" fill="#86928B">19.8%</text><text x="28" y="136" font-size="12.5" fill="#0F1A14">python</text>
 <rect x="148" y="127" width="212" height="8" rx="4" fill="#F4F7F5"/>
-<rect x="148" y="127" width="38.9" height="8" rx="4" fill="#0E7490"/>
-<text x="368" y="136" font-size="11.5" fill="#86928B">18.4%</text><text x="28" y="166" font-size="12.5" fill="#0F1A14">typescript</text>
+<rect x="148" y="127" width="38.8" height="8" rx="4" fill="#0E7490"/>
+<text x="368" y="136" font-size="11.5" fill="#86928B">18.3%</text><text x="28" y="166" font-size="12.5" fill="#0F1A14">typescript</text>
 <rect x="148" y="157" width="212" height="8" rx="4" fill="#F4F7F5"/>
-<rect x="148" y="157" width="30.2" height="8" rx="4" fill="#BF3989"/>
-<text x="368" y="166" font-size="11.5" fill="#86928B">14.2%</text><text x="28" y="196" font-size="12.5" fill="#0F1A14">rust</text>
+<rect x="148" y="157" width="30.7" height="8" rx="4" fill="#BF3989"/>
+<text x="368" y="166" font-size="11.5" fill="#86928B">14.5%</text><text x="28" y="196" font-size="12.5" fill="#0F1A14">rust</text>
 <rect x="148" y="187" width="212" height="8" rx="4" fill="#F4F7F5"/>
 <rect x="148" y="187" width="3.8" height="8" rx="4" fill="#2DA44E"/>
 <text x="368" y="196" font-size="11.5" fill="#86928B">1.8%</text><text x="28" y="226" font-size="12.5" fill="#0F1A14">plpgsql</text>
